@@ -1,0 +1,111 @@
+﻿@using ProjectCourseManagement.Areas.Admin.Models
+@model IList<AdminMenu>
+
+<aside class="left-sidebar">
+    <!-- Sidebar scroll-->
+    <div>
+        <div class="brand-logo d-flex align-items-center justify-content-between">
+            <a href="./index.html" class="text-nowrap logo-img">
+                <img src="~/admin/assets/images/logos/logoo.jpg" width="180" alt="" />
+            </a>
+            <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
+                <i class="ti ti-x fs-8"></i>
+            </div>
+        </div>
+        <!-- Sidebar navigation-->
+        <nav class="sidebar-nav scroll-sidebar" data-simplebar="">
+            <ul id="sidebarnav">
+                <li class="nav-small-cap">
+                    <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+                    <span class="hide-menu">Trang chủ</span>
+                </li>
+                <li class="sidebar-item">
+                    <a class="sidebar-link" href="./index.html" aria-expanded="false">
+                        <span>
+                            <i class="ti ti-layout-dashboard"></i>
+                        </span>
+                        <span class="hide-menu">Tổng quan</span>
+                    </a>
+                </li>
+                <li class="nav-small-cap">
+                    <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+                    <span class="hide-menu">Thành phần</span>
+                </li>
+
+
+                @foreach (var item in Model.Where(m => m.ItemLevel == 1).OrderBy(n => n.ItemOrder))
+                {
+                    var Pid = item.AdminMenuId;
+                    var Smenu = Model.Where(p => p.ParentLevel == Pid).OrderBy(p => p.ItemOrder).ToList();
+
+                    <li class="sidebar-item">
+                        <a class="sidebar-link collapsed" data-bs-target="#@item.ItemTarget" data-bs-toggle="collapse" href="#" aria-expanded="false">
+                            <span>
+                                <i class="@item.Icon"></i>
+                            </span>
+                            <span class="hide-menu">@item.ItemName</span>
+                            <i class="ti ti-chevron-down ms-auto"></i>
+                        </a>
+                    </li>
+
+                    <ul id="@item.IdName" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+                        @foreach (var smn in Smenu)
+                        {
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="/Admin/@smn.ControllerName/@smn.ActionName" aria-expanded="false">
+                                    <span>
+                                        <i class="ti ti-circle"></i>
+                                    </span>
+                                    <span class="hide-menu">@smn.ItemName</span>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                }
+
+
+                <li class="nav-small-cap">
+                    <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+                    <span class="hide-menu">Thực hiện</span>
+                </li>
+                <li class="sidebar-item">
+                    <a class="sidebar-link" href="./authentication-login.html" aria-expanded="false">
+                        <span>
+                            <i class="ti ti-login"></i>
+                        </span>
+                        <span class="hide-menu">Đăng nhập</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a class="sidebar-link" href="./authentication-register.html" aria-expanded="false">
+                        <span>
+                            <i class="ti ti-user-plus"></i>
+                        </span>
+                        <span class="hide-menu">Đăng ký</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a class="sidebar-link" href="./authentication-register.html" aria-expanded="false">
+                        <span>
+                            <i class="ti ti-user-plus"></i>
+                        </span>
+                        <span class="hide-menu">Đổi mật khẩu</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="unlimited-access hide-menu bg-light-primary position-relative mb-7 mt-5 rounded">
+                <div class="d-flex">
+                    <div class="unlimited-access-title me-3">
+                        <h6 class="fw-semibold fs-4 mb-6 text-dark w-85">Upgrade to pro</h6>
+                        <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/" target="_blank" class="btn btn-primary fs-2 fw-semibold lh-sm">Buy Pro</a>
+                    </div>
+                    <div class="unlimited-access-img">
+                        <img src="~/admin/assets/images/backgrounds/rocket.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Sidebar navigation -->
+    </div>
+    <!-- End Sidebar scroll-->
+</aside>
