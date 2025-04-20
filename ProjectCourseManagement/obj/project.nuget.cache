@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "klT7LypR35Y=",
+  "dgSpecHash": "oYQ3F00fQ/4=",
   "success": true,
   "projectFilePath": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\ProjectCourseManagement.csproj",
   "expectedPackageFiles": [
@@ -126,6 +126,7 @@
     "C:\\Users\\PV\\.nuget\\packages\\nuget.projectmodel\\6.11.0\\nuget.projectmodel.6.11.0.nupkg.sha512",
     "C:\\Users\\PV\\.nuget\\packages\\nuget.protocol\\6.11.0\\nuget.protocol.6.11.0.nupkg.sha512",
     "C:\\Users\\PV\\.nuget\\packages\\nuget.versioning\\6.11.0\\nuget.versioning.6.11.0.nupkg.sha512",
+    "C:\\Users\\PV\\.nuget\\packages\\sluggenerator\\2.0.2\\sluggenerator.2.0.2.nupkg.sha512",
     "C:\\Users\\PV\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\PV\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\PV\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",

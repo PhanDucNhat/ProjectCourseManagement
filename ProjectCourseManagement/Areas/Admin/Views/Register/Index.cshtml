@@ -1,0 +1,74 @@
+﻿@model ProjectCourseManagement.Models.Users;
+@using ProjectCourseManagement.Utilities;
+@{
+    Layout = "";
+}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Đăng ký tài khoản</title>
+    <link rel="shortcut icon" type="image/png" href="~/admin/assets/images/logos/loder.png" />
+    <link rel="stylesheet" href="~/admin/assets/css/styles.min.css" />
+</head>
+
+<body>
+    <!--  Body Wrapper -->
+    <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+         data-sidebar-position="fixed" data-header-position="fixed">
+        <div class="position-relative overflow-hidden radial-gradient min-vh-100 d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-center w-100">
+                <div class="row justify-content-center w-100">
+                    <div class="col-md-8 col-lg-6 col-xxl-3">
+                        <div class="card mb-0">
+                            <div class="card-body">
+                                <a href="./index.html" class="text-nowrap logo-img text-center d-block py-3 w-100">
+                                    <img src="~/admin/assets/images/logos/logoo.jpg" width="180" alt="">
+                                </a>
+                                <h2><p class="text-center">Tạo tài khoản</p></h2>
+                                <form asp-controller="Register" asp-action="Index" asp-area="Admin" method="post">    
+                                    <div class="mb-3">
+                                        <label for="yourName" class="form-label">Họ và tên</label>
+                                        <input type="text" asp-for="FullName" class="form-control" id="yourName" aria-describedby="textHelp" required>
+                                        <div class="invalid-feedback">Vui lòng nhập họ và tên!</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="yourEmail" class="form-label">Email</label>
+                                        <input type="email" asp-for="Email" class="form-control" id="yourEmail" aria-describedby="emailHelp" required>
+                                        <div class="invalid-feedback">Vui lòng nhập email!</div>
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="yourPassword" class="form-label">Mật khẩu</label>
+                                        <input type="password" asp-for="PasswordHash" class="form-control" id="yourPassword" required>
+                                        <div class="invalid-feedback">Vui lòng nhập mật khẩu!</div>
+                                    </div>
+                                    <div class="form-group d-none">
+                                        <input asp-for="Status" type="hidden" value="Active" />
+                                    </div>
+                                    <div class="col-12 text-center text-danger">
+                                        <h6>
+                                            @Functions._MessageEmail
+                                        </h6>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Đăng ký</button>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <p class="fs-4 mb-0 fw-bold">Bạn đã có tài khoản?</p>
+                                        <a class="text-primary fw-bold ms-2" href="./authentication-login.html">Đăng nhập</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/admin/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="~/admin/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

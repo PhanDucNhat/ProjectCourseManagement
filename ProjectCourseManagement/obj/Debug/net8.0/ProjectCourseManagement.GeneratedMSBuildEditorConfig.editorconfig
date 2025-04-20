@@ -32,6 +32,14 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/Shared/Components/AdminMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWRtaW5NZW51XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,8 +48,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/User/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/_ViewStart.cshtml]
@@ -60,6 +84,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -71,7 +99,3 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-m60pp2gp6s

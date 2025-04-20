@@ -1,0 +1,71 @@
+﻿@model ProjectCourseManagement.Models.Users
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h2>Xác nhận cập nhật người dùng</h2>
+    </div>
+    <div class="container shadow p-5">
+        <div class="row pb-3">
+            <h2 class="text-center">Cập nhật người dùng</h2>
+        </div>
+        <form method="post" asp-action="Edit">
+            <div asp-validation-summary="All" class="text-danger mb-3"></div>
+            <div class="row g-4">
+                <input type="hidden" asp-for="UserId">
+                <div class="col-md-6">
+                    <label asp-for="FullName" class="form-label">Họ và tên</label>
+                    <input type="text" class="form-control" asp-for="FullName" placeholder="Nhập họ tên">
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="Email" class="form-label">Email</label>
+                    <input type="email" class="form-control" asp-for="Email" placeholder="Nhập email">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="PhoneNumber" class="form-label">Số điện thoại</label>
+                    <input type="number" class="form-control" asp-for="PhoneNumber" placeholder="Nhập số điện thoại">
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="Role" class="form-label">Phân quyền</label>
+                    <select asp-for="Role" class="form-select">
+                        <option value="Admin">Admin</option>
+                        <option value="Giảng viên">Giảng viên</option>
+                        <option value="Học viên">Học viên</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="Status" class="form-label">Trạng thái</label>
+                    <select asp-for="Status" class="form-select">
+                        <option value="Active">Hoạt động</option>
+                        <option value="UnActive">Không hoạt động</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="CreatedAt" class="form-label">Ngày tạo</label>
+                    <input type="text" class="form-control" asp-for="CreatedAt" placeholder="Nhập ngày tạo">
+                    <span asp-validation-for="CreatedAt" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="UpdatedAt" class="form-label">Cập nhật lần cuối</label>
+                    <input asp-for="UpdatedAt" class="form-control" value="@DateTime.Now" />
+                </div>
+                <div class="form-group mt-5 mb-5">
+                    <label>
+                        @Html.CheckBox("IsActive", Model.Status)
+                        Hiển thị
+                    </label>
+                </div>
+            </div>
+            <div class="mt-5 d-flex gap-3">
+                <button type="submit" class="btn btn-lg btn-primary">
+                    <i class="bi bi-file-plus-fill"></i> Lưu
+                </button>
+                <a asp-controller="User" asp-action="Index" class="btn btn-lg btn-warning">Quay lại</a>
+            </div>
+        </form>
+    </div>
+</main>

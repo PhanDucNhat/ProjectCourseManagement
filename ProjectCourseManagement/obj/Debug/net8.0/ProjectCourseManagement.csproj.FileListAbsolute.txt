@@ -14,9 +14,7 @@ D:\Hoc_ki_2_(2024-2025)\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\
 D:\Hoc_ki_2_(2024-2025)\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\Project\ProjectCourseManagement\ProjectCourseManagement\obj\Debug\net8.0\ProjectCourseManagement.MvcApplicationPartsAssemblyInfo.cache
 D:\Hoc_ki_2_(2024-2025)\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\Project\ProjectCourseManagement\ProjectCourseManagement\obj\Debug\net8.0\ProjectCourseManagement.RazorAssemblyInfo.cache
 D:\Hoc_ki_2_(2024-2025)\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\Project\ProjectCourseManagement\ProjectCourseManagement\obj\Debug\net8.0\ProjectCourseManagement.RazorAssemblyInfo.cs
-D:\Hoc_ki_2_(2024-2025)\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\Project\ProjectCourseManagement\ProjectCourseManagement\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Hoc_ki_2_(2024-2025)\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\Project\ProjectCourseManagement\ProjectCourseManagement\obj\Debug\net8.0\scopedcss\bundle\ProjectCourseManagement.styles.css
-D:\Hoc_ki_2_(2024-2025)\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\Project\ProjectCourseManagement\ProjectCourseManagement\obj\Debug\net8.0\scopedcss\projectbundle\ProjectCourseManagement.bundle.scp.css
 D:\Hoc_ki_2_(2024-2025)\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\Project\ProjectCourseManagement\ProjectCourseManagement\obj\Debug\net8.0\staticwebassets.build.json
 D:\Hoc_ki_2_(2024-2025)\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\Project\ProjectCourseManagement\ProjectCourseManagement\obj\Debug\net8.0\staticwebassets.development.json
 D:\Hoc_ki_2_(2024-2025)\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\Project\ProjectCourseManagement\ProjectCourseManagement\obj\Debug\net8.0\staticwebassets.build.endpoints.json
@@ -286,3 +284,5 @@ D:\Hoc_ki_2_(2024-2025)\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\
 D:\Hoc_ki_2_(2024-2025)\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\Project\ProjectCourseManagement\ProjectCourseManagement\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Hoc_ki_2_(2024-2025)\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\Project\ProjectCourseManagement\ProjectCourseManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\Hoc_ki_2_(2024-2025)\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\Project\ProjectCourseManagement\ProjectCourseManagement\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Hoc_ki_2_(2024-2025)\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\Project\ProjectCourseManagement\ProjectCourseManagement\obj\Debug\net8.0\ProjectCourseManagement.sourcelink.json
+D:\Hoc_ki_2_(2024-2025)\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\Project\ProjectCourseManagement\ProjectCourseManagement\bin\Debug\net8.0\SlugGenerator.dll

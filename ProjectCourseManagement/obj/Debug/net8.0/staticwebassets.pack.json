@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProjectCourseManagement.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ProjectCourseManagement.n80htyr547.bundle.scp.css"
-    },
-    {
       "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\admin\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.eot",
       "PackagePath": "staticwebassets\\admin\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.eot"
     },
@@ -2577,244 +2573,824 @@
       "PackagePath": "staticwebassets\\admin\\assets\\scss\\variables\\_variables.scss"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\css\\animate.min.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\animated-headline.css",
+      "PackagePath": "staticwebassets\\css\\animated-headline.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\css\\flaticon.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\fontawesome-all.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome-all.min.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\gijgo.css",
+      "PackagePath": "staticwebassets\\css\\gijgo.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\css\\hamburgers.min.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\price_rangs.css",
+      "PackagePath": "staticwebassets\\css\\price_rangs.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\progressbar_barfiller.css",
+      "PackagePath": "staticwebassets\\css\\progressbar_barfiller.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\slicknav.css",
+      "PackagePath": "staticwebassets\\css\\slicknav.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\style.map",
+      "PackagePath": "staticwebassets\\css\\style.map"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\css\\themify-icons.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.eot"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.svg"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.ttf"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.woff"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.woff2"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\fonts\\_flaticon.scss"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.eot"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.svg"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.eot"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.svg"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.eot"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.svg"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\flaticon.css",
+      "PackagePath": "staticwebassets\\fonts\\flaticon.css"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\flaticon.html",
+      "PackagePath": "staticwebassets\\fonts\\flaticon.html"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\gijgo-material.eot",
+      "PackagePath": "staticwebassets\\fonts\\gijgo-material.eot"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\gijgo-material.svg",
+      "PackagePath": "staticwebassets\\fonts\\gijgo-material.svg"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\gijgo-material.ttf",
+      "PackagePath": "staticwebassets\\fonts\\gijgo-material.ttf"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\gijgo-material.woff",
+      "PackagePath": "staticwebassets\\fonts\\gijgo-material.woff"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\fonts\\themify.eot"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\fonts\\themify.svg"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\fonts\\themify.ttf"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\fonts\\themify.woff"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\blog\\author.png",
+      "PackagePath": "staticwebassets\\img\\blog\\author.png"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\blog\\comment_1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\comment_1.png"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\blog\\comment_2.png",
+      "PackagePath": "staticwebassets\\img\\blog\\comment_2.png"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\blog\\comment_3.png",
+      "PackagePath": "staticwebassets\\img\\blog\\comment_3.png"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\blog\\learn_about_bg.png",
+      "PackagePath": "staticwebassets\\img\\blog\\learn_about_bg.png"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\blog\\single_blog_1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\single_blog_1.png"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\blog\\single_blog_2.png",
+      "PackagePath": "staticwebassets\\img\\blog\\single_blog_2.png"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\blog\\single_blog_3.png",
+      "PackagePath": "staticwebassets\\img\\blog\\single_blog_3.png"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\blog\\single_blog_4.png",
+      "PackagePath": "staticwebassets\\img\\blog\\single_blog_4.png"
     },
     {
-      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\blog\\single_blog_5.png",
+      "PackagePath": "staticwebassets\\img\\blog\\single_blog_5.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\blog\\slide_thumb_1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\slide_thumb_1.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\a.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\a.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\a2.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\a2.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\d.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\d.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\disabled-check.png",
+      "PackagePath": "staticwebassets\\img\\elements\\disabled-check.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\disabled-radio.png",
+      "PackagePath": "staticwebassets\\img\\elements\\disabled-radio.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\f1.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f1.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\f2.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f2.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\f3.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f3.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\f4.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f4.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\f5.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f5.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\f6.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f6.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\f7.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f7.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\f8.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\f8.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\g1.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g1.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\g2.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g2.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\g3.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g3.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\g4.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g4.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\g5.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g5.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\g6.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g6.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\g7.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g7.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\g8.jpg",
+      "PackagePath": "staticwebassets\\img\\elements\\g8.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\primary-check.png",
+      "PackagePath": "staticwebassets\\img\\elements\\primary-check.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\primary-radio.png",
+      "PackagePath": "staticwebassets\\img\\elements\\primary-radio.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\success-check.png",
+      "PackagePath": "staticwebassets\\img\\elements\\success-check.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\elements\\success-radio.png",
+      "PackagePath": "staticwebassets\\img\\elements\\success-radio.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\about2.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\about2.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\about3.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\about3.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\featured1.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\featured1.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\featured2.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\featured2.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\featured3.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\featured3.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\featured4.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\featured4.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\featured5.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\featured5.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\featured6.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\featured6.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\footer-bg.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\footer-bg.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\footer_bg.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\footer_bg.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\form.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\form.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\h1_hero2.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\h1_hero2.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\heart1.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\heart1.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\logo2_footer.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\logo2_footer.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\qutaion.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\qutaion.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\screen.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\screen.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\section-bg3.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\section-bg3.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\section_bg01.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\section_bg01.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\section_bg02.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\section_bg02.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\tam4.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\tam4.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\team1.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\team1.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\team2.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\team2.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\team3.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\team3.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\team4.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\team4.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\testimonail.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\testimonail.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\testimonial.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\testimonial.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\topic1.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\topic1.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\topic2.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\topic2.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\topic3.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\topic3.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\topic4.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\topic4.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\topic5.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\topic5.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\topic6.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\topic6.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\topic7.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\topic7.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\topic8.png",
+      "PackagePath": "staticwebassets\\img\\gallery\\topic8.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\gallery\\video-bg.svg",
+      "PackagePath": "staticwebassets\\img\\gallery\\video-bg.svg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\hero\\h1_hero.png",
+      "PackagePath": "staticwebassets\\img\\hero\\h1_hero.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\hero\\hero2.png",
+      "PackagePath": "staticwebassets\\img\\hero\\hero2.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\hero\\screen.png",
+      "PackagePath": "staticwebassets\\img\\hero\\screen.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\icon\\about.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\about.svg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\icon\\icon1.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\icon1.svg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\icon\\icon2.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\icon2.svg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\icon\\icon3.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\icon3.svg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\icon\\right-icon.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\right-icon.svg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\login-bg.mp4",
+      "PackagePath": "staticwebassets\\img\\login-bg.mp4"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\logo\\loder.png",
+      "PackagePath": "staticwebassets\\img\\logo\\loder.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\logo\\loder.svg",
+      "PackagePath": "staticwebassets\\img\\logo\\loder.svg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\logo\\logo.jpg",
+      "PackagePath": "staticwebassets\\img\\logo\\logo.jpg"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo\\logo.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\logo\\logo2_footer.png",
+      "PackagePath": "staticwebassets\\img\\logo\\logo2_footer.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\logo\\logo_black.png",
+      "PackagePath": "staticwebassets\\img\\logo\\logo_black.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\logo\\logoo.png",
+      "PackagePath": "staticwebassets\\img\\logo\\logoo.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\post\\next.png",
+      "PackagePath": "staticwebassets\\img\\post\\next.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\post\\post_1.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_1.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\post\\post_10.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_10.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\post\\post_2.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_2.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\post\\post_3.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_3.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\post\\post_4.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_4.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\post\\post_5.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_5.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\post\\post_6.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_6.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\post\\post_7.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_7.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\post\\post_8.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_8.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\post\\post_9.png",
+      "PackagePath": "staticwebassets\\img\\post\\post_9.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\img\\post\\preview.png",
+      "PackagePath": "staticwebassets\\img\\post\\preview.png"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\animated.headline.js",
+      "PackagePath": "staticwebassets\\js\\animated.headline.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\gijgo.min.js",
+      "PackagePath": "staticwebassets\\js\\gijgo.min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\hover-direction-snake.min.js",
+      "PackagePath": "staticwebassets\\js\\hover-direction-snake.min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.ajaxchimp.min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\jquery.barfiller.js",
+      "PackagePath": "staticwebassets\\js\\jquery.barfiller.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\jquery.form.js",
+      "PackagePath": "staticwebassets\\js\\jquery.form.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\jquery.magnific-popup.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\jquery.paroller.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.paroller.min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\jquery.slicknav.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.slicknav.min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\jquery.vide.js",
+      "PackagePath": "staticwebassets\\js\\jquery.vide.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\mail-script.js",
+      "PackagePath": "staticwebassets\\js\\mail-script.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\one-page-nav-min.js",
+      "PackagePath": "staticwebassets\\js\\one-page-nav-min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\price-range.js",
+      "PackagePath": "staticwebassets\\js\\price-range.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\vendor\\jquery-1.12.4.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\jquery-1.12.4.min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\vendor\\modernizr-3.5.0.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\modernizr-3.5.0.min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\js\\wow.min.js"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_about.scss",
+      "PackagePath": "staticwebassets\\scss\\_about.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_blog_page.scss",
+      "PackagePath": "staticwebassets\\scss\\_blog_page.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_bradcam.scss",
+      "PackagePath": "staticwebassets\\scss\\_bradcam.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_collaps.scss",
+      "PackagePath": "staticwebassets\\scss\\_collaps.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_color.scss",
+      "PackagePath": "staticwebassets\\scss\\_color.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_common.scss",
+      "PackagePath": "staticwebassets\\scss\\_common.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_contact.scss",
+      "PackagePath": "staticwebassets\\scss\\_contact.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_contact_form.scss",
+      "PackagePath": "staticwebassets\\scss\\_contact_form.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_courses.scss",
+      "PackagePath": "staticwebassets\\scss\\_courses.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_elements.scss",
+      "PackagePath": "staticwebassets\\scss\\_elements.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_extend.scss",
+      "PackagePath": "staticwebassets\\scss\\_extend.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\_footer.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_h1-hero.scss",
+      "PackagePath": "staticwebassets\\scss\\_h1-hero.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_headerMenu.scss",
+      "PackagePath": "staticwebassets\\scss\\_headerMenu.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_load-balnceing.scss",
+      "PackagePath": "staticwebassets\\scss\\_load-balnceing.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_login.scss",
+      "PackagePath": "staticwebassets\\scss\\_login.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_overlay.scss",
+      "PackagePath": "staticwebassets\\scss\\_overlay.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_services.scss",
+      "PackagePath": "staticwebassets\\scss\\_services.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_services_section.scss",
+      "PackagePath": "staticwebassets\\scss\\_services_section.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_team.scss",
+      "PackagePath": "staticwebassets\\scss\\_team.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_testimonial.scss",
+      "PackagePath": "staticwebassets\\scss\\_testimonial.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_top-sub.scss",
+      "PackagePath": "staticwebassets\\scss\\_top-sub.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\_wantTowork.scss",
+      "PackagePath": "staticwebassets\\scss\\_wantTowork.scss"
+    },
+    {
+      "Id": "D:\\Hoc_ki_2_(2024-2025)\\Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen\\Project\\ProjectCourseManagement\\ProjectCourseManagement\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProjectCourseManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

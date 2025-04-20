@@ -1,7 +1,78 @@
 ﻿@using ProjectCourseManagement.Models;
 @model IList<Users>
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
 <main id="main" class="main">
-	<div class="pagetitle">
-		<h2>Danh sách người dùng</h2>
-	</div>
+    <div class="pagetitle d-flex justify-content-between align-items-center">
+        <h2>Danh sách người dùng</h2>
+        <a type="button" class="btn btn-success" asp-area="Admin" asp-controller="User" asp-action="Create">
+            <i class="bi bi-file-earmark-text me-1"></i>Thêm mới và phân quyền người dùng
+        </a>
+    </div>
+
+    <section class="section dashboard">
+        <div class="row">
+            <div class="col-12">
+                <div class="card recent-sales overflow-auto">
+                    <div class="card-body mt-4">
+                        <div class="row mb-3">
+                            <form method="get" asp-action="Index" asp-controller="User" asp-area="Admin" class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="recordsPerPage" class="form-label">Hiển thị:</label>
+                                    <select id="recordsPerPage" class="form-select" style="width: auto; display: inline-block;">
+                                        <option value="5">5 mục</option>
+                                        <option value="10" selected>10 mục</option>
+                                        <option value="25">25 mục</option>
+                                        <option value="50">50 mục</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 text-end">
+                                    <label for="searchString" class="form-label me-2">Tìm kiếm:</label>
+                                    <input type="text" id="searchString" name="searchString" value="@ViewBag.CurrentFilter" class="form-control d-inline-block" placeholder="Nhập từ khóa..." style="width: 250px;" />
+                                </div>
+                            </form>
+                        </div>
+
+                        <table class="table table-borderless datatable">
+                            <thead>
+                                <tr>
+                                    <th class="col-1 text-center">#</th>
+                                    <th class="col-2 text-center">Họ và tên</th>
+                                    <th class="col-2 text-center">Email</th>
+                                    <th class="col-2 text-center">Số đt</th>
+                                    <th class="col-1 text-center">Vai trò</th>
+                                    <th class="col-2 text-center">Trạng thái</th>
+                                    <th class="col-2 text-center">Chức năng</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <th class="text-center" scope="row">@item.UserId</th>
+                                        <td>
+                                            <a asp-area="Admin" asp-controller="User" asp-action="Details" asp-route-id="@item.UserId" class="text-primary">@item.FullName</a>
+                                        </td>
+                                        <td class="text-center">@item.Email</td>
+                                        <td class="text-center">@item.PhoneNumber</td>
+                                        <td class="text-center">@item.Role</td>
+                                        <td class="text-center">@item.Status</td>
+                                        <td class="text-center">
+                                            <a asp-area="Admin" asp-controller="User" asp-action="Edit" asp-route-id="@item.UserId" class="btn btn-primary btn-sm" title="Sửa thông tin/phân quyền">
+                                                <i class="bi bi-pencil"></i>
+                                            </a>
+                                            <a asp-area="Admin" asp-controller="User" asp-action="Delete" asp-route-id="@item.UserId" class="btn btn-danger btn-sm" title="Xóa người dùng">
+                                                <i class="bi bi-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
