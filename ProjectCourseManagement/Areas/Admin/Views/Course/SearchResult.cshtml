@@ -1,0 +1,58 @@
+﻿@model Dictionary<int, ProjectCourseManagement.Models.Course>
+
+@{
+    ViewData["Title"] = "Kết quả tìm kiếm";
+    var searchTerm = ViewBag.SearchTerm as string;
+    var listTime = ViewBag.ListTime;
+    var dictTime = ViewBag.DictTime;
+}
+
+<div class="container mt-4">
+    <h2>Kết quả tìm kiếm</h2>
+    <div class="alert alert-info">
+        <p><strong>Từ khóa:</strong> @searchTerm</p>
+        <p>⏱ Thời gian tìm kiếm bằng <strong>List</strong>: @listTime ms</p>
+        <p>⚡ Thời gian tìm kiếm bằng <strong>HashTable (Dictionary)</strong>: @dictTime ms</p>
+    </div>
+
+    <p>
+        <a asp-action="Index" class="btn btn-secondary">← Quay lại danh sách khóa học</a>
+    </p>
+
+    @if (Model == null || !Model.Any())
+    {
+        <p>Không tìm thấy khóa học nào khớp với từ khóa "<strong>@searchTerm</strong>".</p>
+    }
+    else
+    {
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Tên khóa học</th>
+                    <th>Mô tả</th>
+                    <th>Ngày bắt đầu</th>
+                    <th>Ngày kết thúc</th>
+                    <th>Giảng viên</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var course in Model.Values.OrderBy(c => c.CourseName))
+                {
+                    <tr>
+                        <td>@course.CourseName</td>
+                        <td>@(course.Description ?? "Không có mô tả")</td>
+                        <td>@(course.StartDate?.ToString("dd/MM/yyyy") ?? "Chưa xác định")</td>
+                        <td>@(course.EndDate?.ToString("dd/MM/yyyy") ?? "Chưa xác định")</td>
+                        <td>@(course.Instructor ?? "Chưa xác định")</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@course.CourseID" class="btn btn-sm btn-warning">Sửa</a>
+                            <a asp-action="Delete" asp-route-id="@course.CourseID" class="btn btn-sm btn-danger"
+                               onclick="return confirm('Bạn có chắc muốn xóa khóa học này?');">Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

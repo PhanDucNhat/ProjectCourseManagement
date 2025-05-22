@@ -1,0 +1,34 @@
+﻿@model ProjectCourseManagement.Models.Course
+
+@{
+    ViewData["Title"] = "Edit Course";
+}
+
+<h2>Edit Course</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="CourseID" />
+
+    <div class="form-group">
+        <label asp-for="CourseName"></label>
+        <input asp-for="CourseName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label asp-for="Instructor"></label>
+        <input asp-for="Instructor" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="StartDate"></label>
+        <input asp-for="StartDate" class="form-control" type="date" />
+    </div>
+    <div class="form-group">
+        <label asp-for="EndDate"></label>
+        <input asp-for="EndDate" class="form-control" type="date" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

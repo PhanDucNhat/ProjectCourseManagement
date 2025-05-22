@@ -11,5 +11,7 @@ namespace ProjectCourseManagement.Models
         public DbSet<AdminMenu> AdminMenus { get; set; }
 
         public DbSet<Users> User { get; set; }
+
+        public DbSet<Course> Course { get; set; }
     }
 }

@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Quản lý khóa học";
+    var courseDictionary = ViewBag.CourseDictionary as Dictionary<int, ProjectCourseManagement.Models.Course>;
+    var searchQuery = Context.Request.Query["search"];
+}
+
+<div class="container mt-4">
+    <h2>Quản lý khóa học</h2>
+
+    <!-- Form tìm kiếm -->
+    <form method="get" action="@Url.Action("Search", "Course")">
+        <div class="mb-3">
+            <input type="text" name="search" class="form-control" placeholder="Nhập tên khóa học để tìm kiếm" value="@searchQuery" />
+        </div>
+        <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+    </form>
+
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Tạo khóa học mới</a>
+    </p>
+
+    @if (courseDictionary == null || !courseDictionary.Any())
+    {
+        <p>Không có khóa học nào.</p>
+    }
+    else
+    {
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Tên khóa học</th>
+                    <th>Mô tả</th>
+                    <th>Ngày bắt đầu</th>
+                    <th>Ngày kết thúc</th>
+                    <th>Giảng viên</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var course in courseDictionary.Values.OrderBy(c => c.CourseName))
+                {
+                    <tr>
+                        <td>@course.CourseName</td>
+                        <td>@(course.Description ?? "Không có mô tả")</td>
+                        <td>@(course.StartDate?.ToString("dd/MM/yyyy") ?? "Chưa xác định")</td>
+                        <td>@(course.EndDate?.ToString("dd/MM/yyyy") ?? "Chưa xác định")</td>
+                        <td>@(course.Instructor ?? "Chưa xác định")</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@course.CourseID"
+                               class="btn btn-sm btn-warning">Sửa</a>
+                            <a asp-action="Delete" asp-route-id="@course.CourseID"
+                               class="btn btn-sm btn-danger"
+                               onclick="return confirm('Bạn có chắc muốn xóa khóa học này?');">Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
