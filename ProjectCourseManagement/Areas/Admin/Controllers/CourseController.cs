@@ -16,6 +16,7 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
         private readonly IMemoryCache _cache;
         private const string CacheKey = "CourseDictionary";
         private const string CourseNameCacheKey = "CourseNameDictionary";
+        private const string InstructorCacheKey = "InstructorDictionary";
 
         public CourseController(DataContext context, IMemoryCache cache)
         {
@@ -78,7 +79,8 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
 
                 _context.Course.Add(course);
                 _context.SaveChanges();
-                UpdateCache();
+                
+
 
                 return RedirectToAction("Index");
             }
@@ -109,7 +111,7 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
 
                 _context.Course.Update(course);
                 _context.SaveChanges();
-                UpdateCache();
+                
 
                 return RedirectToAction("Index");
             }
@@ -135,7 +137,7 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
             {
                 _context.Course.Remove(course);
                 _context.SaveChanges();
-                UpdateCache();
+                
             }
             return RedirectToAction("Index");
         }
@@ -143,12 +145,11 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
         private void UpdateCache()
         {
             var courseDictionary = _context.Course
-                .OrderBy(m => m.CourseName)
                 .ToDictionary(m => m.CourseID);
 
             var courseNameDictionary = _context.Course
                 .ToDictionary(c => c.CourseName, c => c, StringComparer.OrdinalIgnoreCase);
-
+            //trung key
             var cacheEntryOptions = new MemoryCacheEntryOptions()
                 .SetSlidingExpiration(TimeSpan.FromMinutes(10));
 
@@ -193,8 +194,63 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
             ViewBag.SearchTerm = search;
             ViewBag.ListTime = listTime;
             ViewBag.DictTime = dictTime;
+            ViewBag.SearchType = "Tên khóa học";
 
             return View("SearchResult", result);
         }
+
+        public IActionResult SearchByInstructor(string search)
+        {
+            if (string.IsNullOrWhiteSpace(search))
+            {
+                return RedirectToAction("Index");
+            }
+
+            // 1. Tìm kiếm bằng List
+            var courseList = _context.Course.ToList();
+            var stopwatchList = Stopwatch.StartNew();
+            var listResult = courseList
+                .Where(c => !string.IsNullOrEmpty(c.Instructor) &&
+                            c.Instructor.Contains(search, StringComparison.OrdinalIgnoreCase))
+                .ToList();
+            stopwatchList.Stop();
+            var listTime = stopwatchList.ElapsedMilliseconds;
+
+            // 2. Tìm kiếm bằng Dictionary<string, List<Course>> (HashTable)
+            if (!_cache.TryGetValue(InstructorCacheKey, out Dictionary<string, List<Course>> instructorDict))
+            {
+                instructorDict = _context.Course
+                    .AsEnumerable()
+                    .Where(c => !string.IsNullOrEmpty(c.Instructor))
+                    .GroupBy(c => c.Instructor, StringComparer.OrdinalIgnoreCase)
+                    .ToDictionary(g => g.Key, g => g.ToList(), StringComparer.OrdinalIgnoreCase);
+
+                _cache.Set(InstructorCacheKey, instructorDict, new MemoryCacheEntryOptions
+                {
+                    SlidingExpiration = TimeSpan.FromMinutes(10)
+                });
+            }
+
+            var stopwatchDict = Stopwatch.StartNew();
+            var dictResult = instructorDict
+                .Where(kv => kv.Key.Contains(search, StringComparison.OrdinalIgnoreCase))
+                .SelectMany(kv => kv.Value)
+                .ToList();
+            stopwatchDict.Stop();
+            var dictTime = stopwatchDict.ElapsedMilliseconds;
+
+            var result = dictResult
+                .GroupBy(c => c.CourseID)
+                .Select(g => g.First())
+                .ToDictionary(c => c.CourseID);
+
+            ViewBag.SearchTerm = search;
+            ViewBag.ListTime = listTime;
+            ViewBag.DictTime = dictTime;
+            ViewBag.SearchType = "Tên giảng viên";
+
+            return View("SearchResult", result);
+        }
+
     }
 }

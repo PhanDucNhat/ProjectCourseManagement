@@ -1,11 +1,16 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using ProjectCourseManagement.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 var connection = builder.Configuration.GetConnectionString("DefaultConnection");
 
-builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(connection));
+builder.Services.AddDbContext<DataContext>(options =>
+    options.UseSqlServer(connection, sqlOptions =>
+    {
+        sqlOptions.CommandTimeout(60); // Timeout 60 giây (mặc định là 30)
+    })
+);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

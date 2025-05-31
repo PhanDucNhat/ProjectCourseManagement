@@ -8,12 +8,40 @@
     <h2>Quản lý khóa học</h2>
 
     <!-- Form tìm kiếm -->
-    <form method="get" action="@Url.Action("Search", "Course")">
-        <div class="mb-3">
-            <input type="text" name="search" class="form-control" placeholder="Nhập tên khóa học để tìm kiếm" value="@searchQuery" />
+    <form method="get" onsubmit="return handleSearch(this)">
+        <div class="row align-items-center mb-3 gx-2">
+            <div class="col-md-6">
+                <input type="text" name="search" id="searchInput" class="form-control"
+                       placeholder="Nhập từ khóa tìm kiếm" value="@searchQuery" />
+            </div>
+            <div class="col-md-3">
+                <select id="searchType" class="form-select">
+                    <option value="Course">Tìm theo tên khóa học</option>
+                    <option value="Instructor">Tìm theo tên giảng viên</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <button type="submit" class="btn btn-primary w-100">Tìm kiếm</button>
+            </div>
         </div>
-        <button type="submit" class="btn btn-primary">Tìm kiếm</button>
     </form>
+
+
+    @section Scripts {
+        <script>
+            function handleSearch(form) {
+                const type = document.getElementById("searchType").value;
+                const search = document.getElementById("searchInput").value;
+                if (type === "Instructor") {
+                    form.action = "/Admin/Course/SearchByInstructor";
+                } else {
+                    form.action = "/Admin/Course/Search";
+                }
+                return true;
+            }
+        </script>
+    }
+
 
     <p>
         <a asp-action="Create" class="btn btn-primary">Tạo khóa học mới</a>
