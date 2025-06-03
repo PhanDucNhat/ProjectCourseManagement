@@ -1,0 +1,34 @@
+﻿@model ProjectCourseManagement.Models.Instructor
+
+@{
+    ViewData["Title"] = "Sửa giảng viên";
+}
+
+<h2>Sửa giảng viên</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="InstructorId" />
+    <input type="hidden" asp-for="CreatedAt" />
+
+    <div class="form-group">
+        <label asp-for="InstructorName">Tên giảng viên</label>
+        <input asp-for="InstructorName" class="form-control" />
+        <span asp-validation-for="InstructorName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password">Mật khẩu</label>
+        <input asp-for="Password" class="form-control" type="password" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Lưu</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

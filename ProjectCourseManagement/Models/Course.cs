@@ -18,8 +18,9 @@ namespace ProjectCourseManagement.Models
 
         public DateTime? EndDate { get; set; }
 
-        public string? Instructor { get; set; }
+        public int? InstructorId { get; set; }
 
-        
+        [ForeignKey("InstructorId")]
+        public Instructor? Instructor { get; set; }
     }
 }

@@ -26,7 +26,6 @@
         </div>
     </form>
 
-
     @section Scripts {
         <script>
             function handleSearch(form) {
@@ -41,7 +40,6 @@
             }
         </script>
     }
-
 
     <p>
         <a asp-action="Create" class="btn btn-primary">Tạo khóa học mới</a>
@@ -72,8 +70,10 @@
                         <td>@(course.Description ?? "Không có mô tả")</td>
                         <td>@(course.StartDate?.ToString("dd/MM/yyyy") ?? "Chưa xác định")</td>
                         <td>@(course.EndDate?.ToString("dd/MM/yyyy") ?? "Chưa xác định")</td>
-                        <td>@(course.Instructor ?? "Chưa xác định")</td>
+                        <td>@(course.Instructor?.InstructorName ?? "Chưa xác định")</td>
                         <td>
+                            <a asp-controller="Lesson" asp-action="Details" asp-route-id="@course.CourseID"
+                               class="btn btn-sm btn-info">Chi tiết</a>
                             <a asp-action="Edit" asp-route-id="@course.CourseID"
                                class="btn btn-sm btn-warning">Sửa</a>
                             <a asp-action="Delete" asp-route-id="@course.CourseID"

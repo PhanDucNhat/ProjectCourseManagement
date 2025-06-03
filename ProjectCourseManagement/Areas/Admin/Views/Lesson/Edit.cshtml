@@ -1,0 +1,42 @@
+﻿@model ProjectCourseManagement.Models.Lesson
+
+@{
+    ViewData["Title"] = "Sửa bài học";
+    var courseName = ViewBag.CourseName as string;
+}
+
+<h2>Sửa bài học - @courseName</h2>
+
+<form asp-controller="Lesson" asp-action="Edit" method="post">
+    <input type="hidden" asp-for="LessonID" />
+    <input type="hidden" asp-for="CourseID" />
+
+    <div class="form-group">
+        <label asp-for="LessonName">Tên bài học</label>
+        <input asp-for="LessonName" class="form-control" />
+        <span asp-validation-for="LessonName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description">Mô tả</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label asp-for="VideoUrl">URL video bài giảng</label>
+        <input asp-for="VideoUrl" class="form-control" placeholder="Nhập URL video (ví dụ: https://youtube.com/...)" />
+        <span asp-validation-for="VideoUrl" class="text-danger"></span>
+        @if (!string.IsNullOrEmpty(Model.VideoUrl))
+        {
+            <small class="form-text text-muted">Video hiện tại: <a href="@Model.VideoUrl" target="_blank">Xem video</a></small>
+        }
+    </div>
+    <div class="form-group">
+        <label asp-for="ExerciseContent">Nội dung bài tập</label>
+        <textarea asp-for="ExerciseContent" class="form-control" placeholder="Nhập câu hỏi hoặc nội dung bài tập"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Lưu</button>
+    <a asp-controller="Lesson" asp-action="Details" asp-route-id="@Model.CourseID" class="btn btn-secondary">Hủy</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

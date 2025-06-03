@@ -45,7 +45,7 @@
                         <td>@(course.Description ?? "Không có mô tả")</td>
                         <td>@(course.StartDate?.ToString("dd/MM/yyyy") ?? "Chưa xác định")</td>
                         <td>@(course.EndDate?.ToString("dd/MM/yyyy") ?? "Chưa xác định")</td>
-                        <td>@(course.Instructor ?? "Chưa xác định")</td>
+                        <td>@(course.Instructor?.InstructorName ?? "Chưa xác định")</td>
                         <td>
                             <a asp-action="Edit" asp-route-id="@course.CourseID" class="btn btn-sm btn-warning">Sửa</a>
                             <a asp-action="Delete" asp-route-id="@course.CourseID" class="btn btn-sm btn-danger"

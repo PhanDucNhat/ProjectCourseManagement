@@ -26,10 +26,10 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            // Lấy khóa học theo CourseID từ cache
             if (!_cache.TryGetValue(CacheKey, out Dictionary<int, Course> courseDictionary))
             {
                 courseDictionary = _context.Course
+                    .Include(c => c.Instructor)
                     .Take(20)
                     .ToDictionary(m => m.CourseID);
 
@@ -39,14 +39,13 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
                 _cache.Set(CacheKey, courseDictionary, cacheEntryOptions);
             }
 
-            // Lấy khóa học theo CourseName từ cache
             if (!_cache.TryGetValue(CourseNameCacheKey, out Dictionary<string, Course> courseNameDictionary))
             {
                 courseNameDictionary = _context.Course
-                .AsEnumerable() // tránh lỗi từ EF Core khi dùng GroupBy với StringComparer
-                .GroupBy(c => c.CourseName, StringComparer.OrdinalIgnoreCase)
-                .ToDictionary(g => g.Key, g => g.First(), StringComparer.OrdinalIgnoreCase);
-
+                    .Include(c => c.Instructor)
+                    .AsEnumerable()
+                    .GroupBy(c => c.CourseName, StringComparer.OrdinalIgnoreCase)
+                    .ToDictionary(g => g.Key, g => g.First(), StringComparer.OrdinalIgnoreCase);
 
                 var cacheEntryOptions = new MemoryCacheEntryOptions()
                     .SetSlidingExpiration(TimeSpan.FromMinutes(10));
@@ -62,6 +61,9 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
 
         public IActionResult Create()
         {
+            ViewBag.Instructors = _context.Instructor
+                .Select(i => new { i.InstructorId, i.InstructorName })
+                .ToList();
             return View();
         }
 
@@ -74,6 +76,9 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
                 if (string.IsNullOrEmpty(course.CourseName))
                 {
                     ModelState.AddModelError("CourseName", "Tên khóa học không được để trống.");
+                    ViewBag.Instructors = _context.Instructor
+                        .Select(i => new { i.InstructorId, i.InstructorName })
+                        .ToList();
                     return View(course);
                 }
 
@@ -81,19 +86,27 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
                 _context.SaveChanges();
                 
 
-
                 return RedirectToAction("Index");
             }
+
+            ViewBag.Instructors = _context.Instructor
+                .Select(i => new { i.InstructorId, i.InstructorName })
+                .ToList();
             return View(course);
         }
 
         public IActionResult Edit(int id)
         {
-            var course = _context.Course.Find(id);
+            var course = _context.Course
+                .Include(c => c.Instructor)
+                .FirstOrDefault(c => c.CourseID == id);
             if (course == null)
             {
                 return NotFound();
             }
+            ViewBag.Instructors = _context.Instructor
+                .Select(i => new { i.InstructorId, i.InstructorName })
+                .ToList();
             return View(course);
         }
 
@@ -106,21 +119,29 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
                 if (string.IsNullOrEmpty(course.CourseName))
                 {
                     ModelState.AddModelError("CourseName", "Tên khóa học không được để trống.");
+                    ViewBag.Instructors = _context.Instructor
+                        .Select(i => new { i.InstructorId, i.InstructorName })
+                        .ToList();
                     return View(course);
                 }
 
                 _context.Course.Update(course);
                 _context.SaveChanges();
-                
+
 
                 return RedirectToAction("Index");
             }
+            ViewBag.Instructors = _context.Instructor
+                .Select(i => new { i.InstructorId, i.InstructorName })
+                .ToList();
             return View(course);
         }
 
         public IActionResult Delete(int id)
         {
-            var course = _context.Course.Find(id);
+            var course = _context.Course
+                .Include(c => c.Instructor)
+                .FirstOrDefault(c => c.CourseID == id);
             if (course == null)
             {
                 return NotFound();
@@ -137,7 +158,7 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
             {
                 _context.Course.Remove(course);
                 _context.SaveChanges();
-                
+
             }
             return RedirectToAction("Index");
         }
@@ -145,16 +166,28 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
         private void UpdateCache()
         {
             var courseDictionary = _context.Course
+                .Include(c => c.Instructor)
                 .ToDictionary(m => m.CourseID);
 
             var courseNameDictionary = _context.Course
-                .ToDictionary(c => c.CourseName, c => c, StringComparer.OrdinalIgnoreCase);
-            //trung key
+                .Include(c => c.Instructor)
+                .AsEnumerable()
+                .GroupBy(c => c.CourseName, StringComparer.OrdinalIgnoreCase)
+                .ToDictionary(g => g.Key, g => g.First(), StringComparer.OrdinalIgnoreCase);
+
+            var instructorDictionary = _context.Course
+                .Include(c => c.Instructor)
+                .Where(c => c.Instructor != null)
+                .AsEnumerable()
+                .GroupBy(c => c.Instructor.InstructorName, StringComparer.OrdinalIgnoreCase)
+                .ToDictionary(g => g.Key, g => g.ToList(), StringComparer.OrdinalIgnoreCase);
+
             var cacheEntryOptions = new MemoryCacheEntryOptions()
                 .SetSlidingExpiration(TimeSpan.FromMinutes(10));
 
             _cache.Set(CacheKey, courseDictionary, cacheEntryOptions);
             _cache.Set(CourseNameCacheKey, courseNameDictionary, cacheEntryOptions);
+            _cache.Set(InstructorCacheKey, instructorDictionary, cacheEntryOptions);
         }
 
         public IActionResult Search(string search)
@@ -163,19 +196,24 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
             {
                 return RedirectToAction("Index");
             }
-            // 1. Truy vấn bằng danh sách (List)
-            var courseList = _context.Course.ToList();
+
+            var courseList = _context.Course
+                .Include(c => c.Instructor)
+                .ToList();
             var stopwatchList = Stopwatch.StartNew();
             var listResult = courseList
                 .Where(c => c.CourseName.Contains(search, StringComparison.OrdinalIgnoreCase))
                 .ToList();
             stopwatchList.Stop();
             var listTime = stopwatchList.ElapsedMilliseconds;
-            // 2. Truy vấn bằng Dictionary (HashTable)
+
             if (!_cache.TryGetValue(CourseNameCacheKey, out Dictionary<string, Course> courseNameDict))
             {
                 courseNameDict = _context.Course
-                    .ToDictionary(c => c.CourseName, c => c, StringComparer.OrdinalIgnoreCase);
+                    .Include(c => c.Instructor)
+                    .AsEnumerable()
+                    .GroupBy(c => c.CourseName, StringComparer.OrdinalIgnoreCase)
+                    .ToDictionary(g => g.Key, g => g.First(), StringComparer.OrdinalIgnoreCase);
 
                 _cache.Set(CourseNameCacheKey, courseNameDict, new MemoryCacheEntryOptions
                 {
@@ -189,6 +227,7 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
                 .ToList();
             stopwatchDict.Stop();
             var dictTime = stopwatchDict.ElapsedMilliseconds;
+
             var result = dictResult.ToDictionary(c => c.CourseID);
 
             ViewBag.SearchTerm = search;
@@ -206,23 +245,24 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
                 return RedirectToAction("Index");
             }
 
-            // 1. Tìm kiếm bằng List
-            var courseList = _context.Course.ToList();
+            var courseList = _context.Course
+                .Include(c => c.Instructor)
+                .ToList();
             var stopwatchList = Stopwatch.StartNew();
             var listResult = courseList
-                .Where(c => !string.IsNullOrEmpty(c.Instructor) &&
-                            c.Instructor.Contains(search, StringComparison.OrdinalIgnoreCase))
+                .Where(c => c.Instructor != null &&
+                            c.Instructor.InstructorName.Contains(search, StringComparison.OrdinalIgnoreCase))
                 .ToList();
             stopwatchList.Stop();
             var listTime = stopwatchList.ElapsedMilliseconds;
 
-            // 2. Tìm kiếm bằng Dictionary<string, List<Course>> (HashTable)
             if (!_cache.TryGetValue(InstructorCacheKey, out Dictionary<string, List<Course>> instructorDict))
             {
                 instructorDict = _context.Course
+                    .Include(c => c.Instructor)
+                    .Where(c => c.Instructor != null)
                     .AsEnumerable()
-                    .Where(c => !string.IsNullOrEmpty(c.Instructor))
-                    .GroupBy(c => c.Instructor, StringComparer.OrdinalIgnoreCase)
+                    .GroupBy(c => c.Instructor.InstructorName, StringComparer.OrdinalIgnoreCase)
                     .ToDictionary(g => g.Key, g => g.ToList(), StringComparer.OrdinalIgnoreCase);
 
                 _cache.Set(InstructorCacheKey, instructorDict, new MemoryCacheEntryOptions
@@ -251,6 +291,5 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
 
             return View("SearchResult", result);
         }
-
     }
 }

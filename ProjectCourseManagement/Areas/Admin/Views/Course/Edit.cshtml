@@ -1,7 +1,8 @@
 ﻿@model ProjectCourseManagement.Models.Course
 
 @{
-    ViewData["Title"] = "Edit Course";
+    ViewData["Title"] = "Sửa khóa học";
+    var instructors = ViewBag.Instructors as List<ProjectCourseManagement.Models.Instructor>;
 }
 
 <h2>Edit Course</h2>
@@ -12,14 +13,18 @@
     <div class="form-group">
         <label asp-for="CourseName"></label>
         <input asp-for="CourseName" class="form-control" />
+        <span asp-validation-for="CourseName" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="Description"></label>
         <textarea asp-for="Description" class="form-control"></textarea>
     </div>
     <div class="form-group">
-        <label asp-for="Instructor"></label>
-        <input asp-for="Instructor" class="form-control" />
+        <label asp-for="InstructorId">Giảng viên</label>
+        <select asp-for="InstructorId" class="form-control" asp-items="@(new SelectList(ViewBag.Instructors, "InstructorId", "InstructorName"))">
+            <option value="">-- Chọn giảng viên --</option>
+        </select>
+        <span asp-validation-for="InstructorId" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="StartDate"></label>
@@ -32,3 +37,7 @@
     <button type="submit" class="btn btn-primary">Save</button>
     <a asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

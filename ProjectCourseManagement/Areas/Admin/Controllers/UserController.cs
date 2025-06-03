@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Security.Claims;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ProjectCourseManagement.Models;
+using ProjectCourseManagement.Utilities;
 
 namespace ProjectCourseManagement.Areas.Admin.Controllers
 {
@@ -127,6 +129,56 @@ namespace ProjectCourseManagement.Areas.Admin.Controllers
             _context.User.Remove(deleUser);
             _context.SaveChanges();
             return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult ChangePassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult ChangePassword(string CurrentPassword, string NewPassword, string ConfirmPassword)
+        {
+            if (string.IsNullOrEmpty(CurrentPassword) || string.IsNullOrEmpty(NewPassword) || string.IsNullOrEmpty(ConfirmPassword))
+            {
+                TempData["ErrorMessage"] = "Vui lòng điền đầy đủ các trường";
+                return View();
+            }
+
+            if (NewPassword != ConfirmPassword)
+            {
+                TempData["ErrorMessage"] = "Mật khẩu xác nhận không khớp";
+                return View();
+            }
+
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (string.IsNullOrEmpty(userId))
+            {
+                TempData["ErrorMessage"] = "Vui lòng đăng nhập lại";
+                return View();
+            }
+
+            var user = _context.User.FirstOrDefault(u => u.UserId == int.Parse(userId));
+            if (user == null)
+            {
+                TempData["ErrorMessage"] = "Không tìm thấy người dùng";
+                return View();
+            }
+
+            if (user.PasswordHash != Functions.MD5Password(CurrentPassword))
+            {
+                TempData["ErrorMessage"] = "Mật khẩu hiện tại không đúng";
+                return View();
+            }
+
+            user.PasswordHash = Functions.MD5Password(NewPassword);
+            user.UpdatedAt = DateTime.Now;
+            _context.SaveChanges();
+
+            TempData["SuccessMessage"] = "Đổi mật khẩu thành công";
+            return RedirectToAction("ChangePassword");
         }
     }
 }

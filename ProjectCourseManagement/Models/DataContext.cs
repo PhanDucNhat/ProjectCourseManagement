@@ -13,5 +13,9 @@ namespace ProjectCourseManagement.Models
         public DbSet<Users> User { get; set; }
 
         public DbSet<Course> Course { get; set; }
+
+        public DbSet<Instructor> Instructor { get; set; }
+
+        public DbSet<Lesson> Lesson { get; set; }
     }
 }

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ProjectCourseManagement.Models.Instructor>
+
+@{
+    ViewData["Title"] = "Quản lý giảng viên";
+}
+
+<div class="container mt-4">
+    <h2>Quản lý giảng viên</h2>
+
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Tạo giảng viên mới</a>
+    </p>
+
+    @if (Model == null || !Model.Any())
+    {
+        <p>Không có giảng viên nào.</p>
+    }
+    else
+    {
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Tên giảng viên</th>
+                    <th>Email</th>
+                    <th>Ngày tạo</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var instructor in Model.OrderBy(i => i.InstructorName))
+                {
+                    <tr>
+                        <td>@instructor.InstructorName</td>
+                        <td>@instructor.Email</td>
+                        <td>@instructor.CreatedAt.ToString("dd/MM/yyyy")</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@instructor.InstructorId"
+                               class="btn btn-sm btn-warning">Sửa</a>
+                            <a asp-action="Delete" asp-route-id="@instructor.InstructorId"
+                               class="btn btn-sm btn-danger"
+                               onclick="return confirm('Bạn có chắc muốn xóa giảng viên này?');">Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

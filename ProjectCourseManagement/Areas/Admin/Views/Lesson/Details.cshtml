@@ -1,0 +1,61 @@
+﻿@model ProjectCourseManagement.Models.Course
+@{
+    ViewData["Title"] = "Danh sách bài học";
+    var course = ViewBag.Course as ProjectCourseManagement.Models.Course;
+    var lessons = ViewBag.Lessons as List<ProjectCourseManagement.Models.Lesson>;
+}
+
+<div class="container mt-4">
+    <h2>Danh sách bài học - @course.CourseName</h2>
+
+    <p>
+        <a asp-controller="Lesson" asp-action="Create" asp-route-courseId="@course.CourseID" class="btn btn-primary">Tạo bài học mới</a>
+        <a asp-controller="Course" asp-action="Index" class="btn btn-secondary">Quay lại danh sách khóa học</a>
+    </p>
+
+    @if (lessons == null || !lessons.Any())
+    {
+        <p>Không có bài học nào cho khóa học này.</p>
+    }
+    else
+    {
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Tên bài học</th>
+                    <th>Mô tả</th>
+                    <th>Video bài giảng</th>
+                    <th>Bài tập</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var lesson in lessons.OrderBy(l => l.LessonName))
+                {
+                    <tr>
+                        <td>@lesson.LessonName</td>
+                        <td>@(lesson.Description ?? "Không có mô tả")</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(lesson.VideoUrl))
+                            {
+                                <a href="@lesson.VideoUrl" target="_blank">Xem video</a>
+                            }
+                            else
+                            {
+                                <span>Không có video</span>
+                            }
+                        </td>
+                        <td>@(lesson.ExerciseContent ?? "Không có bài tập")</td>
+                        <td>
+                            <a asp-controller="Lesson" asp-action="Edit" asp-route-id="@lesson.LessonID"
+                               class="btn btn-sm btn-warning">Sửa</a>
+                            <a asp-controller="Lesson" asp-action="Delete" asp-route-id="@lesson.LessonID"
+                               class="btn btn-sm btn-danger"
+                               onclick="return confirm('Bạn có chắc muốn xóa bài học này?');">Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

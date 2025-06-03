@@ -1,0 +1,37 @@
+﻿@model ProjectCourseManagement.Models.Instructor
+
+@{
+    ViewData["Title"] = "Xóa giảng viên";
+}
+
+<h2>Xóa giảng viên</h2>
+
+<div>
+    <h4>Bạn có chắc muốn xóa giảng viên này?</h4>
+    <dl class="row">
+        <dt class="col-sm-2">Tên giảng viên</dt>
+        <dd class="col-sm-10">@Model.InstructorName</dd>
+
+        <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Model.Email</dd>
+
+        <dt class="col-sm-2">Ngày tạo</dt>
+        <dd class="col-sm-10">@Model.CreatedAt.ToString("dd/MM/yyyy")</dd>
+    </dl>
+
+    @if (!ViewData.ModelState.IsValid)
+    {
+            <div class="alert alert-danger">
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                        <p>@error.ErrorMessage</p>
+            }
+            </div>
+    }
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="InstructorId" />
+        <button type="submit" class="btn btn-danger">Xóa</button>
+        <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+    </form>
+</div>

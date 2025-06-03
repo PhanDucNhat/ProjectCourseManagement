@@ -52,6 +52,38 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/Instructor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW5zdHJ1Y3RvclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/Instructor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW5zdHJ1Y3RvclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/Instructor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW5zdHJ1Y3RvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/Instructor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW5zdHJ1Y3RvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/Lesson/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGVzc29uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/Lesson/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGVzc29uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/Lesson/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGVzc29uXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/Lesson/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGVzc29uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -66,6 +98,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/User/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Hoc_ki_2_(2024-2025)/Cau_truc_du_lieu_va_giai_thuat_nang_cao-Nguyen_Thi_Uyen/Project/ProjectCourseManagement/ProjectCourseManagement/Areas/Admin/Views/User/Create.cshtml]

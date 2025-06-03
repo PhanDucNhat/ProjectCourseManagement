@@ -1,0 +1,41 @@
+﻿@model ProjectCourseManagement.Models.Lesson
+
+@{
+    ViewData["Title"] = "Xóa bài học";
+    var courseName = ViewBag.CourseName as string;
+}
+
+<h2>Xóa bài học - @courseName</h2>
+
+<div>
+    <h4>Bạn có chắc muốn xóa bài học này?</h4>
+    <dl class="row">
+        <dt class="col-sm-2">Tên bài học</dt>
+        <dd class="col-sm-10">@Model.LessonName</dd>
+
+        <dt class="col-sm-2">Mô tả</dt>
+        <dd class="col-sm-10">@(Model.Description ?? "Không có mô tả")</dd>
+
+        <dt class="col-sm-2">Video bài giảng</dt>
+        <dd class="col-sm-10">
+            @if (!string.IsNullOrEmpty(Model.VideoUrl))
+            {
+                <a href="@Model.VideoUrl" target="_blank">Xem video</a>
+            }
+            else
+            {
+                <span>Không có video</span>
+            }
+        </dd>
+
+        <dt class="col-sm-2">Bài tập</dt>
+        <dd class="col-sm-10">@(Model.ExerciseContent ?? "Không có bài tập")</dd>
+    </dl>
+
+    <form asp-controller="Lesson" asp-action="Delete" method="post">
+        <input type="hidden" asp-for="LessonID" />
+        <input type="hidden" asp-for="CourseID" />
+        <button type="submit" class="btn btn-danger">Xóa</button>
+        <a asp-controller="Lesson" asp-action="Details" asp-route-id="@Model.CourseID" class="btn btn-secondary">Hủy</a>
+    </form>
+</div>
